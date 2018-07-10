@@ -52,9 +52,9 @@ function LanguageChange(lang)
     }
 
 }
-        speak[0] = "Learn about our great healthcare offerings";
-        speak[1] = "Watch some videos about our unique services";
-        speak[2] = "Experience our telemedicine service and meet our doctors";
+        speak[0] = "learn about our coolmould - high thermal conductivity for shorter cycle times";
+        speak[1] = "watch a video to learn more about voestalpine";
+        speak[2] = "learn about our pre-hardened ESR material";
         speak[3] = "Read a welcome message from our dean.";
         speak[4] = "Find out what classes you need for your major.";
         speak[5] = "";
@@ -74,15 +74,15 @@ function FC_ContentsCall(strContentsName, strLanguage)
            location.href = "../../maincontents.htm";
             break;
         case "Coolmould":
-            //PlaySpeech(speak[0]);
+            PlaySpeech(speak[0]);
             location.href = "Contents/Coolmould/index.html";
             break;
         case "Videos":
-            //PlaySpeech(speak[1]);
+            PlaySpeech(speak[1]);
             location.href = "Contents/Video/index.html";
             break;
         case "Mirrax":
-            //PlaySpeech(speak[2]);
+            PlaySpeech(speak[2]);
             location.href = "Contents/Mirrax/index.html";
             break;
         
@@ -277,14 +277,14 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
             window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Hi, I'm Casey. Welcome to the Kaiser Permanente Booth.");//I'm here to assist you, press any button on my screen to begin");
+            window.external.PlaySpeech("hi i’m tracey. welcome to the voestalpine booth!");//I'm here to assist you, press any button on my screen to begin");
           
     }
 
     if(btn_info[1] == '1'){
-        window.external.ChangeLanguage("en-us");
-            SetVolume(1);
-            window.external.PlaySpeech("Hello, How are you? How are you feeling?");
+        //window.external.ChangeLanguage("en-us");
+            //SetVolume(1);
+            //window.external.PlaySpeech("Hello, How are you? How are you feeling?");
         
     }
     if(btn_info[2] == '1'){
