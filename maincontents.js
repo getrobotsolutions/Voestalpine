@@ -53,7 +53,7 @@ function LanguageChange(lang)
 
 }
         speak[0] = "learn about our coolmould - high thermal conductivity for shorter cycle times";
-        speak[1] = "watch a video to learn more about voestalpine";
+        speak[1] = "watch a video to learn more about voestalpinee";
         speak[2] = "learn about our pre-hardened ESR material";
         speak[3] = "Read a welcome message from our dean.";
         speak[4] = "Find out what classes you need for your major.";
